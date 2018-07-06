@@ -1,0 +1,25 @@
+.answer-spacer{
+    margin-top: 20px;
+}
+#question{
+    margin: 50px 0;
+
+}
+.top{
+    margin-top:100px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+
+}
+h1,h2,h3,h4, .answer-spacer{
+    font-family: 'Raleway', sans-serif;
+}
+.cream-background{
+    background-color: #FFF7DB;
+}
+a{
+    font-size: 24px;
+}
+.min{
+    min-height: 400px;
+}
