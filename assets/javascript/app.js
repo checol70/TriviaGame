@@ -92,7 +92,10 @@ function correct()
     console.log("correct")
     $("#answer"+questionArray[currentQuestion].rightAns).css("color", "blue");
     $("#gif").attr("src","assets/images/"+ questionArray[currentQuestion].imgSrc +".gif")
-    $("#gif").show()
+    setTimeout(()=>
+    {
+        $("#gif").show()
+    }, 10);
     setTimeout(() => {
         $("#gif").hide()
         newQuestion();
